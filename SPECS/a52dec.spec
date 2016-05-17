@@ -1,7 +1,7 @@
 Summary: 	A free ATSC A/52 stream decoder
 Name: 		a52dec
 Version: 	0.7.4
-Release: 	18%{?dist}
+Release: 	19%{?dist}
 License: 	GPLv2
 Group: 		System Environment/Libraries
 URL: 		http://liba52.sourceforge.net/
@@ -82,6 +82,9 @@ rm -rf $RPM_BUILD_ROOT
 #---------------------------------------------------------------------
 
 %changelog
+* Fri May 13 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.7.4-19
+- Rebuilt for DeskOS
+
 * Sun Mar 10 2013 Nicolas Chauvet <kwizart@gmail.com> - 0.7.4-18
 - Add silence patch as we don't built with DJBFFT enabled
 
